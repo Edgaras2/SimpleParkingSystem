@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-28T10:20:45.292025700Z</date>
+  <millis>1543400445292</millis>
+  <nanos>25700</nanos>
+  <sequence>0</sequence>
+  <logger>run.Start</logger>
+  <level>FINEST</level>
+  <class>parking.ParkingLot</class>
+  <method>carPlateScanner</method>
+  <thread>1</thread>
+  <message>Car with such a car plate is already parked in parking lot.</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 1</message>
+    <frame>
+      <class>parking.ParkingLot</class>
+      <method>carPlateScanner</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>run.Start</class>
+      <method>main</method>
+      <line>12</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-11-28T10:21:08.614024600Z</date>
+  <millis>1543400468614</millis>
+  <nanos>24600</nanos>
+  <sequence>1</sequence>
+  <logger>run.Start</logger>
+  <level>FINEST</level>
+  <class>parking.ParkingLot</class>
+  <method>carPlateScanner</method>
+  <thread>1</thread>
+  <message>Car with such a car plate is not registered.</message>
+  <exception>
+    <message>parking.DublicateCarException</message>
+    <frame>
+      <class>parking.ParkingLot</class>
+      <method>carPlateScanner</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>run.Start</class>
+      <method>main</method>
+      <line>12</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-11-28T10:21:24.364780600Z</date>
+  <millis>1543400484364</millis>
+  <nanos>780600</nanos>
+  <sequence>2</sequence>
+  <logger>run.Start</logger>
+  <level>FINEST</level>
+  <class>parking.ParkingLot</class>
+  <method>carPlateScanner</method>
+  <thread>1</thread>
+  <message>Car with such a car plate is not registered.</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 1</message>
+    <frame>
+      <class>parking.ParkingLot</class>
+      <method>carPlateScanner</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>run.Start</class>
+      <method>main</method>
+      <line>12</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-11-28T10:21:24.991178800Z</date>
+  <millis>1543400484991</millis>
+  <nanos>178800</nanos>
+  <sequence>3</sequence>
+  <logger>run.Start</logger>
+  <level>FINEST</level>
+  <class>parking.ParkingLot</class>
+  <method>carPlateScanner</method>
+  <thread>1</thread>
+  <message>Car with such a car plate is not registered.</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 1</message>
+    <frame>
+      <class>parking.ParkingLot</class>
+      <method>carPlateScanner</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>run.Start</class>
+      <method>main</method>
+      <line>12</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-11-28T10:21:26.464479900Z</date>
+  <millis>1543400486464</millis>
+  <nanos>479900</nanos>
+  <sequence>4</sequence>
+  <logger>run.Start</logger>
+  <level>FINEST</level>
+  <class>parking.ParkingLot</class>
+  <method>carPlateScanner</method>
+  <thread>1</thread>
+  <message>Car with such a car plate is not registered.</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 1</message>
+    <frame>
+      <class>parking.ParkingLot</class>
+      <method>carPlateScanner</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>run.Start</class>
+      <method>main</method>
+      <line>12</line>
+    </frame>
+  </exception>
+</record>

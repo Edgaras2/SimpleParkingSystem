@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-08-27T15:07:39.225738800Z</date>
+  <millis>1535382459225</millis>
+  <nanos>738800</nanos>
+  <sequence>0</sequence>
+  <logger>run.Start</logger>
+  <level>FINEST</level>
+  <class>parking.ParkingLot</class>
+  <method>carPlateScanner</method>
+  <thread>1</thread>
+  <message>Car with such a car plate is already parked in parking lot.</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 1</message>
+    <frame>
+      <class>parking.ParkingLot</class>
+      <method>carPlateScanner</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>run.Start</class>
+      <method>main</method>
+      <line>12</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-08-27T15:08:05.865979300Z</date>
+  <millis>1535382485865</millis>
+  <nanos>979300</nanos>
+  <sequence>1</sequence>
+  <logger>run.Start</logger>
+  <level>FINEST</level>
+  <class>parking.ParkingLot</class>
+  <method>carPlateScanner</method>
+  <thread>1</thread>
+  <message>Car with such a car plate is already parked in parking lot.</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 1</message>
+    <frame>
+      <class>parking.ParkingLot</class>
+      <method>carPlateScanner</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>run.Start</class>
+      <method>main</method>
+      <line>12</line>
+    </frame>
+  </exception>
+</record>
